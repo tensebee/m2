@@ -1,0 +1,42 @@
+[{
+  "uuid": "corpus-test-1",
+  "name": "Test Conversations",
+  "chat_messages": [
+    {
+      "uuid": "msg-1",
+      "text": "Hello, how are you today?",
+      "sender": "human"
+    },
+    {
+      "uuid": "msg-2",
+      "text": "Hello! I'm doing well, thank you for asking. How can I help you today?",
+      "sender": "assistant"
+    },
+    {
+      "uuid": "msg-3",
+      "text": "I need help understanding n-grams and how they work in language models.",
+      "sender": "human"
+    },
+    {
+      "uuid": "msg-4",
+      "text": "N-grams are sequences of n consecutive words. For example, in the phrase 'how are you', the 2-grams (bigrams) are 'how are' and 'are you'. They're used to predict the next word based on previous words.",
+      "sender": "assistant"
+    }
+  ]
+},
+{
+  "uuid": "corpus-test-2",
+  "name": "Second Test Corpus",
+  "chat_messages": [
+    {
+      "uuid": "msg-5",
+      "text": "What is machine learning?",
+      "sender": "human"
+    },
+    {
+      "uuid": "msg-6",
+      "text": "Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed.",
+      "sender": "assistant"
+    }
+  ]
+}]
